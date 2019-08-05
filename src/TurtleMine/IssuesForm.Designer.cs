@@ -99,6 +99,7 @@
             resources.ApplyResources(this.lvwIssueList, "lvwIssueList");
             this.lvwIssueList.FullRowSelect = true;
             this.helpProviderToolTip.SetHelpString(this.lvwIssueList, resources.GetString("lvwIssueList.HelpString"));
+            this.lvwIssueList.HideSelection = false;
             this.lvwIssueList.Name = "lvwIssueList";
             this.lvwIssueList.ShowGroups = false;
             this.helpProviderToolTip.SetShowHelp(this.lvwIssueList, ((bool)(resources.GetObject("lvwIssueList.ShowHelp"))));
@@ -146,7 +147,6 @@
             this.wbrDescription.AllowWebBrowserDrop = false;
             resources.ApplyResources(this.wbrDescription, "wbrDescription");
             this.wbrDescription.IsWebBrowserContextMenuEnabled = false;
-            this.wbrDescription.MinimumSize = new System.Drawing.Size(20, 20);
             this.wbrDescription.Name = "wbrDescription";
             this.wbrDescription.ScriptErrorsSuppressed = true;
             this.helpProviderToolTip.SetShowHelp(this.wbrDescription, ((bool)(resources.GetObject("wbrDescription.ShowHelp"))));
@@ -158,7 +158,6 @@
             this.pnlOkCancel.Controls.Add(this.btnOk);
             this.pnlOkCancel.Controls.Add(this.btnCancel);
             resources.ApplyResources(this.pnlOkCancel, "pnlOkCancel");
-            this.pnlOkCancel.MinimumSize = new System.Drawing.Size(380, 0);
             this.pnlOkCancel.Name = "pnlOkCancel";
             this.helpProviderToolTip.SetShowHelp(this.pnlOkCancel, ((bool)(resources.GetObject("pnlOkCancel.ShowHelp"))));
             // 
@@ -358,7 +357,6 @@
             this.pnlDoMore.Controls.Add(this.btnOpenRedmine);
             this.pnlDoMore.Controls.Add(this.btnTimeEntry);
             resources.ApplyResources(this.pnlDoMore, "pnlDoMore");
-            this.pnlDoMore.MinimumSize = new System.Drawing.Size(360, 0);
             this.pnlDoMore.Name = "pnlDoMore";
             this.helpProviderToolTip.SetShowHelp(this.pnlDoMore, ((bool)(resources.GetObject("pnlDoMore.ShowHelp"))));
             // 

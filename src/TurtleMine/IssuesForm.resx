@@ -181,14 +181,14 @@ Right click for more options</value>
   </metadata>
   <data name="ilstSortImages.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAC2
-        AQAAAk1TRnQBSQFMAgEBAgEAAdABAAHQAQABCAEAARABAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAEg
+        AQAAAk1TRnQBSQFMAgEBAgEAAdgBAAHYAQABCAEAARABAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAEg
         AwABEAMAAQEBAAEgBgABCP8A/wBAAAMiATIDIgExWAADRwGAA0cBgBQAAyYBOAJlAV8B9ANfAfMDJgE4
-        VAABWgGcAWAB/wFTAZMBWAH/FAADPwFtAYEByAGLAf8BggHFAYoB/wNEAXpUAAFlAaYBgQH/AVwBnAFi
-        Af8YAAGBAbwBgQH/AYEBsQGBAf9YAAGBAbwBgQH/AYEBsQGBAf8YAAFlAaYBgQH/AVwBnAFiAf9UAAM/
-        AW0BgQHIAYsB/wGCAcUBigH/A0QBehQAAVoBnAFgAf8BUwGTAVgB/1QAAyYBOAJlAV8B9ANfAfMDJgE4
+        VAABWQGcAV8B/wFSAZMBVwH/FAADPwFtAYEByAGLAf8BggHFAYoB/wNEAXpUAAFkAaYBgQH/AVsBnAFh
+        Af8YAAGBAbwBgQH/AYEBsQGBAf9YAAGBAbwBgQH/AYEBsQGBAf8YAAFkAaYBgQH/AVsBnAFhAf9UAAM/
+        AW0BgQHIAYsB/wGCAcUBigH/A0QBehQAAVkBnAFfAf8BUgGTAVcB/1QAAyYBOAJlAV8B9ANfAfMDJgE4
         FAADRwGAA0cBgFgAAyIBMgMiATH/AP8AbgABQgFNAT4HAAE+AwABKAMAASADAAEQAwABAQEAAQEFAAFA
         FwAD/wEAAv8CAAL/AgAC/wIAAv8CAAH/AecCAAHnAcMCAAHnAcMCAALnAgAC5wIAAcMB5wIAAcMB5wIA
         AecB/wIAAv8CAAL/AgAC/wIAAv8CAAs=
@@ -232,6 +232,9 @@ Right click for more options</value>
   </data>
   <data name="wbrDescription.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
+  </data>
+  <data name="wbrDescription.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
   </data>
   <data name="wbrDescription.ShowHelp" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -421,6 +424,9 @@ Right click for more options</value>
   </data>
   <data name="pnlOkCancel.Location" type="System.Drawing.Point, System.Drawing">
     <value>407, 0</value>
+  </data>
+  <data name="pnlOkCancel.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>380, 0</value>
   </data>
   <data name="pnlOkCancel.ShowHelp" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -654,7 +660,7 @@ Right click for more options</value>
     <value>300, 19</value>
   </data>
   <data name="lblVersion.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 20</value>
+    <value>49, 20</value>
   </data>
   <data name="lblVersion.Text" xml:space="preserve">
     <value>Version</value>
@@ -728,6 +734,9 @@ Right click for more options</value>
   <data name="btnTimeEntry.Text" xml:space="preserve">
     <value>&amp;Time Entry</value>
   </data>
+  <data name="btnTimeEntry.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="&gt;&gt;btnTimeEntry.Name" xml:space="preserve">
     <value>btnTimeEntry</value>
   </data>
@@ -768,7 +777,7 @@ Right click for more options</value>
     <value>1</value>
   </data>
   <data name="btnOpenRedmine.Text" xml:space="preserve">
-    <value>&amp;Redmine</value>
+    <value>&amp;OpenProject</value>
   </data>
   <data name="btnOpenRedmine.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
     <value>ImageBeforeText</value>
@@ -829,6 +838,9 @@ Right click for more options</value>
   </data>
   <data name="pnlDoMore.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
+  </data>
+  <data name="pnlDoMore.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>360, 0</value>
   </data>
   <data name="pnlDoMore.ShowHelp" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -900,7 +912,7 @@ Right click for more options</value>
     <value>CenterParent</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Redmine Issues</value>
+    <value>OpenProject Workpackages</value>
   </data>
   <data name="&gt;&gt;chooseColumnsToDisplayToolStripMenuItem.Name" xml:space="preserve">
     <value>chooseColumnsToDisplayToolStripMenuItem</value>

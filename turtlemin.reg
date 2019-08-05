@@ -1,0 +1,29 @@
+REGEDIT4
+
+[HKEY_CLASSES_ROOT\TurtleMine]
+@="TurtleMine.Plugin"
+
+[HKEY_CLASSES_ROOT\TurtleMine\CLSID]
+@="{55B7DC40-2D4A-46AB-8884-329A02D26EDF}"
+
+[HKEY_CLASSES_ROOT\CLSID\{55B7DC40-2D4A-46AB-8884-329A02D26EDF}]
+@="TurtleMine.Plugin"
+
+[HKEY_CLASSES_ROOT\CLSID\{55B7DC40-2D4A-46AB-8884-329A02D26EDF}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="TurtleMine.Plugin"
+"Assembly"="TurtleMine, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+"CodeBase"="file:///D:/x-Entwicklung/c#/turtlemine/src/bin/x64/Debug/TurtleMine.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{55B7DC40-2D4A-46AB-8884-329A02D26EDF}\InprocServer32\2.0.0.0]
+"Class"="TurtleMine.Plugin"
+"Assembly"="TurtleMine, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+"CodeBase"="file:///D:/x-Entwicklung/c#/turtlemine/src/bin/x64/Debug/TurtleMine.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{55B7DC40-2D4A-46AB-8884-329A02D26EDF}\ProgId]
+@="TurtleMine"
+
+[HKEY_CLASSES_ROOT\CLSID\{55B7DC40-2D4A-46AB-8884-329A02D26EDF}\Implemented Categories\{3494FA92-B139-4730-9591-01135D5E7831}]
