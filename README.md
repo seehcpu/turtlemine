@@ -1,5 +1,5 @@
 
-# Tortoise --Redmine-- OpenProject Plugin
+# Tortoise ~~Redmine~~ OpenProject Plugin
 
 ## Important Note
 
